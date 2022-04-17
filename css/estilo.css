@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "FonteLogo";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+  
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(252, 240, 224);
+}
+p{
+
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+          /**cabeçalho**/
+ #area-cabecalho{  
+     text-align: center;
+     padding: 15px;
+     background-color: rgb(252, 220, 209);
+    }
+
+ .titulo-header{
+
+    font-size: 60px;
+ }
+ #area-menu , #area-ttitulo{
+     padding: 10px;
+
+ }
+ a:link , a:visited{
+
+    color: white;
+    padding: 8px 15px;
+    background-color: burlywood;
+    margin-right: 10px;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     
+ }
+ a:hover{
+
+    background-color: white;
+    color: rgb(7, 6, 6);
+   
+ }
+
+ /**** corpo ****/
+ h1{
+
+    font-family:"FonteLogo";
+    
+}
+h1.titulo-left{
+
+    color: #606060;
+    background-color: #dddddd;
+    font-size: 35px;
+    padding: 5px ;
+    margin-bottom: 0px;
+}
+h2.titulo-left2{
+
+    color: #606060;
+   
+    font-size: 20px;
+    padding: 5px ;
+  
+   
+}
+h4.sub-titulo{
+
+ float: right;
+ margin-bottom: 0px;
+}
+ 
+ #corpo{
+     
+    background-color: rgb(252, 240, 224);
+    float: left;
+    margin: 0px auto;
+}
+
+
+/**** conteudo esquerda***/
+
+#conteudo-esquerda{
+    display: block;
+    margin-top: 15px;
+    background-color: white;
+    width: 835px;
+    float: left;
+    padding: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
+    margin-bottom: 10px;
+}
+.Foto01{
+     display: block;
+    width: 640px;
+    margin:40px auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
+ }
+ .Foto02{
+     display: block;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
+     width: 640px;
+    margin: 40px auto;
+      
+  }
+  /****fim esquerdo  ****/
+
+/**** lado direito   ****/
+
+#area-direita{
+
+    display: block;
+    width: 450px;
+    float: right;
+    background-color: #dddddd;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
+}
+
+.imagem-direita{
+
+    display: block;
+    width: 400px;
+    margin: 15px auto 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
+}
+.titulo-direito{
+
+    background-color: #888888;
+    margin: 10px auto;
+    color: white;
+    padding: 5px;
+}
+.titulo-right{
+
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #606060;
+
+    
+}
+.titulo-rigth2{
+
+    font-size: 20px;
+    
+}
+
+
+
+         
+/**** fim lado direito   ****/
+  
+/****** RODAPE ******/
+
+#rodape{
+
+    text-align: center;
+   
+   
+    background-color: rgb(252, 240, 224);
+    border-top: 1px solid;
+    clear: both;
+  
+  }
+.Rodape2{
+
+
+    padding-top: 5px;
+    margin: 5px;
+}
+
+/****** FIM RODAPE ******/
